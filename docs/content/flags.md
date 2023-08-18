@@ -185,7 +185,7 @@ Flags for filtering directory listings.
       --ignore-case                         Ignore case in filters (case insensitive)
       --include stringArray                 Include files matching pattern
       --include-from stringArray            Read file include patterns from file (use - to read from stdin)
-      --max-age Duration                    Only transfer files younger than this in s or suffix ms|s|m|h|d|w|M|y (default off)
+      --max-age Duration                    Only transfer files younger (by modification date) than this in s or suffix ms|s|m|h|d|w|M|y (default off)
       --max-depth int                       If set limits the recursion depth to this (default -1)
       --max-size SizeSuffix                 Only transfer files smaller than this in KiB or suffix B|K|M|G|T|P (default off)
       --metadata-exclude stringArray        Exclude metadatas matching pattern
@@ -194,7 +194,7 @@ Flags for filtering directory listings.
       --metadata-filter-from stringArray    Read metadata filtering patterns from a file (use - to read from stdin)
       --metadata-include stringArray        Include metadatas matching pattern
       --metadata-include-from stringArray   Read metadata include patterns from file (use - to read from stdin)
-      --min-age Duration                    Only transfer files older than this in s or suffix ms|s|m|h|d|w|M|y (default off)
+      --min-age Duration                    Only transfer files older (by modification date) than this in s or suffix ms|s|m|h|d|w|M|y (default off)
       --min-size SizeSuffix                 Only transfer files bigger than this in KiB or suffix B|K|M|G|T|P (default off)
 ```
 

@@ -692,7 +692,8 @@ See [the size option docs](/docs/#size-option) for more info.
 
 ### `--max-age` - Don't transfer any file older than this
 
-Controls the maximum age of files within the scope of an rclone command.
+Controls the maximum age of files (by modification date) within the scope
+of an rclone command.
 
 `--max-age` applies only to files and not to directories.
 
@@ -703,8 +704,8 @@ See [the time option docs](/docs/#time-option) for valid formats.
 
 ### `--min-age` - Don't transfer any file younger than this
 
-Controls the minimum age of files within the scope of an rclone command.
-(see `--max-age` for valid formats)
+Controls the minimum age of files (by modification date) within the scope
+of an rclone command. (see `--max-age` for valid formats)
 
 `--min-age` applies only to files and not to directories.
 
