@@ -53,7 +53,7 @@ var (
 	statsInterval   = flags.DurationP("stats", "", time.Minute*1, "Interval between printing stats, e.g. 500ms, 60s, 5m (0 to disable)", "Logging")
 	dataRateUnit    = flags.StringP("stats-unit", "", "bytes", "Show data rate in stats as either 'bits' or 'bytes' per second", "Logging")
 	version         bool
-	retries         = flags.IntP("retries", "", 3, "Retry operations this many times if they fail", "Config")
+	retries         = flags.IntP("retries", "", 3, "Retry operations this many times if they fail, including the initial attempt", "Config")
 	retriesInterval = flags.DurationP("retries-sleep", "", 0, "Interval between retrying operations if they fail, e.g. 500ms, 60s, 5m (0 to disable)", "Config")
 	// Errors
 	errorCommandNotFound    = errors.New("command not found")

@@ -1795,7 +1795,7 @@ setting the timestamp as this is the safe behaviour.
 
 ### --retries int ###
 
-Retry the entire sync if it fails this many times it fails (default 3).
+Retry the entire sync if it fails this many times, including the initial attempt (default 3).
 
 Some remotes can be unreliable and a few retries help pick up the
 files which didn't get transferred because of errors.

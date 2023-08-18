@@ -148,7 +148,7 @@ General configuration of rclone.
       --no-console                          Hide console window (supported on Windows only)
       --no-unicode-normalization            Don't normalize unicode characters in filenames
       --password-command SpaceSepList       Command for supplying password for encrypted configuration
-      --retries int                         Retry operations this many times if they fail (default 3)
+      --retries int                         Retry operations this many times if they fail, including the initial attempt (default 3)
       --retries-sleep Duration              Interval between retrying operations if they fail, e.g. 500ms, 60s, 5m (0 to disable) (default 0s)
       --temp-dir string                     Directory rclone will use for temporary files (default "/tmp")
       --use-mmap                            Use mmap allocator (see docs)
