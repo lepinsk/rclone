@@ -782,9 +782,9 @@ directories.
 
 The filters can be applied using these flags.
 
-- `--metadata-include`      - Include metadatas matching pattern
+- `--metadata-include`      - Include files where metadata match a pattern
 - `--metadata-include-from` - Read metadata include patterns from file (use - to read from stdin)
-- `--metadata-exclude`      - Exclude metadatas matching pattern
+- `--metadata-exclude`      - Exclude files where metadata match a pattern
 - `--metadata-exclude-from` - Read metadata exclude patterns from file (use - to read from stdin)
 - `--metadata-filter`       - Add a metadata filtering rule
 - `--metadata-filter-from`  - Read metadata filtering patterns from a file (use - to read from stdin)
